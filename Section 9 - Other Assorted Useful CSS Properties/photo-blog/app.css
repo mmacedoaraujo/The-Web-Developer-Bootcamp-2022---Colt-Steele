@@ -1,0 +1,14 @@
+nav {
+  font-family: Oswald, sans-serif;
+  font-size: 3em;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 0.2em 0;
+}
+
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+  box-sizing: border-box;
+}
