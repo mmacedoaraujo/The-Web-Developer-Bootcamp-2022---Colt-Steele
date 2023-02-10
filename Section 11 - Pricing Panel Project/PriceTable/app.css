@@ -95,7 +95,7 @@ body {
 
 @media (min-width: 768px) {
     .panel {
-        padding: 0 20px;
+        padding: 50px 20px;
         flex-direction: row;
     }
 
