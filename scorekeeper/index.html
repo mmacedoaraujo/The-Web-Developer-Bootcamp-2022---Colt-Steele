@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-three-fifths is-offset-one-fifth">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Ping Pong Score Keeper
+                            </p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by2">
+                                <img src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+                                    alt="">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="playerOneScore">0</span> to <span
+                                        id="playerTwoScore">0</span>
+                                </h1>
+                                <p class="subtitle">Use the buttons below to keep score</p>
+
+                                <label class="label is-large is-inline-block" for="pointsToWin">
+                                    <p class="title is-4 pt-1 mr-2">Play up to</p>
+                                </label>
+                                <div class="select is-rounded">
+                                    <select name="" id="pointsToWin">
+                                        <option selected value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="10">10</option>
+                                        <option value="15">15</option>
+                                    </select>
+                                </div>
+                                <p class="is-inline-block ml-2 title is-4">points</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button is-info card-footer-item" id="playerOneBtn">+1
+                                Player
+                                One</button>
+                            <button class="button is-info card-footer-item" id="playerTwoBtn">+1
+                                Player
+                                Two</button>
+                            <button class="button is-danger card-footer-item" id="resetBtn">Reset
+                                Points</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
