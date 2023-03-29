@@ -1,0 +1,21 @@
+#showsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerDiv {
+    width: 20em;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+
+}
+
+.posterImg:hover {
+    zoom: 1.05;
+    transition: 500ms ease-in-out;
+    opacity: 90%;
+}
